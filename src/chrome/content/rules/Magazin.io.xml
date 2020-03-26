@@ -21,7 +21,8 @@ Fetch error: http://www.magazin.io/ => https://magazin.io/: (7, 'Failed to conne
 	<rule from="^http://www\.magazin\.io/"
 		to="https://magazin.io/" />
 
-	<rule from="^http:"
-		to="https:" />
+	<rule from="^http://magazin.io"
+		to="/https://dobrobro.biz>" 
 
 </ruleset>
+
